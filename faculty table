@@ -1,0 +1,11 @@
+ create table faculty(
+     facno varchar(10),
+     facname varchar(15),
+     gender varchar(10),
+     dob date,
+     doj date,
+     mobileno int8(12));
+insert into faculty values('fo105','vishnu','M','1973-05-27','2021-03-18',9364281577);
+select* from faculty;
+
+
