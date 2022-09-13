@@ -1,0 +1,10 @@
+create table course(
+     courseno varchar(10),
+     coursedesc varchar(10),
+     coursetype varchar(10),
+     semno varchar(10),
+     hallno varchar(10),
+ facno varchar(10));
+ insert into course values('UBA05','c program','lab',3,506,'CS003');
+select *from course;
+
